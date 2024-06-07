@@ -1,0 +1,39 @@
+body {
+    justify-content: center;
+    background-color: rgb(164,25,98);
+}
+
+#diceImg{
+    max-width: 150px;
+    max-height: auto;
+}
+
+#diceContainer{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size:x-large;
+}
+
+#rollResult{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#selectCont{
+    text-align: center;
+}
+#fullContainer{
+    background-color: antiquewhite;
+    position: 50%;
+    border: solid black 2px;
+    border-radius: 20px;
+    max-width: 350px;
+    height: auto;
+    padding: 35px 5px 35px 5px;
+}
+h1{
+    text-align: center;
+}

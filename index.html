@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Roller</title>
+  </head>
+  <body>
+    <!-- <select id="bgChange">
+      <option></option>
+    </select> -->
+    <div id="fullContainer">
+        <h1>Dice Roller 2000</h1>
+      <div id="diceContainer">
+        <img
+          id="diceImg"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/D20_icon.png/600px-D20_icon.png?20200701204253"
+        />
+        <div id="rollContainer">
+          <span id="rollResult"> 0 </span>
+        </div>
+      </div>
+      <div id="selectCont">
+        <label>How many dice?</label>
+        <input id="dieNum" type="text"/>
+      <br/>
+        <label for="dieOptions">Please Select your die:</label>
+        <select name="dieOptions" id="dieOptions">
+          <option value="2">d2</option>
+          <option value="4">d4</option>
+          <option value="6">d6</option>
+          <option value="8">d8</option>
+          <option value="10">d10</option>
+          <option value="12">d12</option>
+          <option value="20">d20</option>
+          <option value="100">d100</option>
+        </select>
+        <button id="rollBtn" onclick="rollerStart()">Roll!</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
